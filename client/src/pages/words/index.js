@@ -64,7 +64,6 @@ function Words(props) {
 
   useEffect(() => {
     if (progress >= 100) {
-      console.log(currentWord);
       navigate("/rank", {
         state: {
           totalQuestions,
